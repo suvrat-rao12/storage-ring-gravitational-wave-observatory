@@ -1,5 +1,5 @@
 # storage-ring-gravitational-wave-observatory
-Simulating the detection of millihertz (mHz) gravitational waves (GWs) from astrophysical sources by a Storage Ring Gravitational-wave Observatory (SRGO).
+Simulating the detection of millihertz (mHz) gravitational waves (GWs) from astrophysical sources by a Storage Ring Gravitational-wave Observatory (SRGO). (https://journals.aps.org/prd/abstract/10.1103/PhysRevD.102.122006)
 
 NOTE1: Rename the "theanorc.txt" file to ".theanorc.txt" (notice the '.' at the start) and place this file in your "C:\Users\username" folder. Also rename the paths inside this file to the corresponding paths of your computer. Some paths will only exist after you complete the installation procedure following the guide below. 
 
