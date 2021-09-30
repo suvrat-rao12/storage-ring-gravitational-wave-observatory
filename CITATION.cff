@@ -4,7 +4,7 @@ authors:
 - family-names: "Rao"
   given-names: "Suvrat"
   orcid: "https://orcid.org/0000-0002-2395-358X"
-title: "Storage Ring Gravitational-wave Observatory simulation code"
+title: "Storage Ring Gravitational-wave Observatory (SRGO) simulation code"
 version: 1.0.0
 date-released: 2021-10-01
 url: "https://github.com/suvrat-rao12/storage-ring-gravitational-wave-observatory"
