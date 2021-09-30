@@ -7,27 +7,27 @@ NOTE2: Place "earth.png" in the same folder as "srgo.py". It is required by the 
 
 NOTE3: Be careful if you wish to time the code, as it may hang the MCMC subroutine due to unknown reasons!
 
-ORDERWISE, PROPER MODULE INSTALLATION, ERROR DEBUGGING & OPTIMIZATION INSTRUCTIONS *FOR WINDOWS*:
-(start with a clean installation, then just follow this list mechanically and you should be good...)
-(also, skip making separate environments and just install everything in the anaconda base environment)
-https://gist.github.com/ElefHead/93becdc9e99f2a9e4d2525a59f64b574
-(^ skip any module installs mentioned in this & copy all the cuDNN folder contents to the CUDA folder)
-https://stackoverflow.com/questions/57701571/what-is-the-right-way-to-update-anaconda-and-conda-base-environments
-(^ conda update conda ; conda update anaconda ; conda install spyder=5.0.5 ; conda update --all)
-https://github.com/pymc-devs/pymc3/wiki/Installation-Guide-(Windows)
-(^ in line 1, skip "python=3.8" and scipy ; but add pygpu)
-https://www.programmersought.com/article/18283822507/
-https://stackoverflow.com/questions/28011551/how-configure-theano-on-windows
-https://theano-pymc.readthedocs.io/en/latest/library/config.html
-https://github.com/conda-forge/magma-feedstock
-https://theano-pymc.readthedocs.io/en/latest/tutorial/using_gpu.html
-https://theano-pymc.readthedocs.io/en/latest/troubleshooting.html
-https://docs.huihoo.com/theano/0.8/faq.html
-https://stackoverflow.com/questions/50949520/cudnn-path-not-resolving
-(^ library_path = ...\lib64\x64)
-https://github.com/monero-project/monero/issues/3521
-https://docs.microsoft.com/en-us/cpp/assembler/masm/masm-for-x64-ml64-exe?view=msvc-160
-(^ already present in MS Visual Studio and added to path in step 1, so directly call editbin.exe in cmd)
-https://www.windowscentral.com/how-change-virtual-memory-size-windows-10?amp
-https://github.com/arviz-devs/arviz/pull/1665
-In case of any __init__.py errors, open those files and hotfix the respective lines.
+ORDERWISE, PROPER MODULE INSTALLATION, ERROR DEBUGGING & OPTIMIZATION INSTRUCTIONS *FOR WINDOWS*: <br />
+(start with a clean installation, then just follow this list mechanically and you should be good...) <br />
+(also, skip making separate environments and just install everything in the anaconda base environment) <br />
+https://gist.github.com/ElefHead/93becdc9e99f2a9e4d2525a59f64b574 <br />
+(^ skip any module installs mentioned in this & copy all the cuDNN folder contents to the CUDA folder) <br />
+https://stackoverflow.com/questions/57701571/what-is-the-right-way-to-update-anaconda-and-conda-base-environments <br />
+(^ conda update conda ; conda update anaconda ; conda install spyder=5.0.5 ; conda update --all) <br />
+https://github.com/pymc-devs/pymc3/wiki/Installation-Guide-(Windows) <br />
+(^ in line 1, skip "python=3.8" and scipy ; but add pygpu) <br />
+https://www.programmersought.com/article/18283822507/ <br />
+https://stackoverflow.com/questions/28011551/how-configure-theano-on-windows <br />
+https://theano-pymc.readthedocs.io/en/latest/library/config.html <br />
+https://github.com/conda-forge/magma-feedstock <br />
+https://theano-pymc.readthedocs.io/en/latest/tutorial/using_gpu.html <br />
+https://theano-pymc.readthedocs.io/en/latest/troubleshooting.html <br />
+https://docs.huihoo.com/theano/0.8/faq.html <br />
+https://stackoverflow.com/questions/50949520/cudnn-path-not-resolving <br />
+(^ library_path = ...\lib64\x64) <br />
+https://github.com/monero-project/monero/issues/3521 <br />
+https://docs.microsoft.com/en-us/cpp/assembler/masm/masm-for-x64-ml64-exe?view=msvc-160 <br />
+(^ already present in MS Visual Studio and added to path in step 1, so directly call editbin.exe in cmd) <br />
+https://www.windowscentral.com/how-change-virtual-memory-size-windows-10?amp <br />
+https://github.com/arviz-devs/arviz/pull/1665 <br />
+In case of any __init__.py errors, open those files and hotfix the respective lines. 
