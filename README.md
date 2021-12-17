@@ -5,8 +5,6 @@ STEP 1: Rename the "theanorc.txt" file to ".theanorc.txt" (notice the '.' at the
 
 STEP 2: Create a new folder named "saved_plots" (results will automatically be saved to this folder) and place it in the same folder as "srgo.py" along with "earth.png", which is required by the code to create the main plots. The other images are also used in making plots, but they are re-generated and saved by the code with each run.
 
-NOTE: Be careful if you wish to time the code, as it may hang the MCMC subroutine due to unknown reasons!
-
 STEP 3: ORDERWISE, PROPER MODULE INSTALLATION, ERROR DEBUGGING & OPTIMIZATION INSTRUCTIONS <br />
 
 *FOR WINDOWS (with GPU assist)*: <br />
@@ -35,3 +33,6 @@ In case of any __init__.py errors, open those files and hotfix the respective li
 
 *FOR LINUX (without GPU assist)*: <br />
 Simply do "pip install pymc3" and you're good to go!
+
+
+NOTE: Be careful if you wish to time the code, as it may hang the MCMC subroutine due to unknown reasons!
