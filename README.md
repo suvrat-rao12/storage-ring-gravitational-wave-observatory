@@ -8,7 +8,6 @@ NOTE2: Place "earth.png" and "saved_plots" in the same folder as "srgo.py". It i
 NOTE3: Be careful if you wish to time the code, as it may hang the MCMC subroutine due to unknown reasons!
 
 ORDERWISE, PROPER MODULE INSTALLATION, ERROR DEBUGGING & OPTIMIZATION INSTRUCTIONS <br />
-
 *FOR WINDOWS (with GPU assist)*: <br />
 (start with a clean installation, then just follow this list mechanically and you should be good...) <br />
 (also, skip making separate environments and just install everything in the anaconda base environment) <br />
