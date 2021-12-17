@@ -1,9 +1,9 @@
 # storage-ring-gravitational-wave-observatory
 Simulating the detection of millihertz (mHz) gravitational waves (GWs) from astrophysical sources by a Storage Ring Gravitational-wave Observatory (SRGO). Reference: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.102.122006
 
-NOTE1: Rename the "theanorc.txt" file to ".theanorc.txt" (notice the '.' at the start) and place this file in your "C:\Users\username" folder. Also rename the paths inside this file to the corresponding paths of your computer. Some paths will only exist after you complete the installation procedure following the guide below. 
+NOTE1: Rename the "theanorc.txt" file to ".theanorc.txt" (notice the '.' at the start) and place this file in your "C:\Users\username" folder. Also, rename the paths inside this file to the corresponding paths of your computer. Some paths will only exist after you complete the installation procedure following the guide below. If you do not wish to set up GPU assist, then skip those steps from the guide and delete the appropriate lines from .theanorc.txt.
 
-NOTE2: Place "earth.png" and "saved_plots" in the same folder as "srgo.py". It is required by the code to create the main plots. The other images are also used in making plots, but they are re-generated and saved by the code with each run.
+NOTE2: Create a new folder named "saved_plots" (results will be automatically saved in this folder) and place it in the same folder as "srgo.py" along with "earth.png", which is required by the code to create the main plots. The other images are also used in making plots, but they are re-generated and saved by the code with each run.
 
 NOTE3: Be careful if you wish to time the code, as it may hang the MCMC subroutine due to unknown reasons!
 
@@ -30,7 +30,6 @@ https://github.com/monero-project/monero/issues/3521 <br />
 https://docs.microsoft.com/en-us/cpp/assembler/masm/masm-for-x64-ml64-exe?view=msvc-160 <br />
 (^ already present in MS Visual Studio and added to path in step 1, so directly call editbin.exe in cmd) <br />
 https://www.windowscentral.com/how-change-virtual-memory-size-windows-10?amp <br />
-https://github.com/arviz-devs/arviz/pull/1665 <br />
 In case of any __init__.py errors, open those files and hotfix the respective lines. 
 
 *FOR LINUX (without GPU assist)*: <br />
