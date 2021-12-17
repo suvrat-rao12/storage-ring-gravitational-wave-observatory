@@ -3,11 +3,13 @@ Simulating the detection of millihertz (mHz) gravitational waves (GWs) from astr
 
 NOTE1: Rename the "theanorc.txt" file to ".theanorc.txt" (notice the '.' at the start) and place this file in your "C:\Users\username" folder. Also rename the paths inside this file to the corresponding paths of your computer. Some paths will only exist after you complete the installation procedure following the guide below. 
 
-NOTE2: Place "earth.png" in the same folder as "srgo.py". It is required by the code to create the main plots. The other images are also used in making plots, but they are re-generated and saved by the code with each run.
+NOTE2: Place "earth.png" and "saved_plots" in the same folder as "srgo.py". It is required by the code to create the main plots. The other images are also used in making plots, but they are re-generated and saved by the code with each run.
 
 NOTE3: Be careful if you wish to time the code, as it may hang the MCMC subroutine due to unknown reasons!
 
-ORDERWISE, PROPER MODULE INSTALLATION, ERROR DEBUGGING & OPTIMIZATION INSTRUCTIONS *FOR WINDOWS*: <br />
+ORDERWISE, PROPER MODULE INSTALLATION, ERROR DEBUGGING & OPTIMIZATION INSTRUCTIONS <br />
+
+*FOR WINDOWS (with GPU assist)*: <br />
 (start with a clean installation, then just follow this list mechanically and you should be good...) <br />
 (also, skip making separate environments and just install everything in the anaconda base environment) <br />
 https://gist.github.com/ElefHead/93becdc9e99f2a9e4d2525a59f64b574 <br />
@@ -31,3 +33,6 @@ https://docs.microsoft.com/en-us/cpp/assembler/masm/masm-for-x64-ml64-exe?view=m
 https://www.windowscentral.com/how-change-virtual-memory-size-windows-10?amp <br />
 https://github.com/arviz-devs/arviz/pull/1665 <br />
 In case of any __init__.py errors, open those files and hotfix the respective lines. 
+
+*FOR LINUX (without GPU assist)*: <br />
+Simply do "pip install pymc3" and you're good to go!
