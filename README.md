@@ -3,7 +3,7 @@ Simulating the detection of millihertz (mHz) gravitational waves (GWs) from astr
 
 STEP 1: Rename the "theanorc.txt" file to ".theanorc.txt" (notice the '.' at the start) and place this file in your "C:\Users\username" folder. Also, rename the paths inside this file to the corresponding paths of your computer. Some paths will only exist after you complete the installation procedure following the guide below. If you do not wish to set up GPU assist, then skip those steps from the guide and delete the appropriate lines from .theanorc.txt.
 
-STEP 2: Create a new folder named "saved_plots" (results will be automatically saved in this folder) and place it in the same folder as "srgo.py" along with "earth.png", which is required by the code to create the main plots. The other images are also used in making plots, but they are re-generated and saved by the code with each run.
+STEP 2: Create a new folder named "saved_plots" (results will automatically be saved in this folder) and place it in the same folder as "srgo.py" along with "earth.png", which is required by the code to create the main plots. The other images are also used in making plots, but they are re-generated and saved by the code with each run.
 
 NOTE: Be careful if you wish to time the code, as it may hang the MCMC subroutine due to unknown reasons!
 
