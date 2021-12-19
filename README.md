@@ -32,7 +32,7 @@ https://www.windowscentral.com/how-change-virtual-memory-size-windows-10?amp <br
 In case of any __init__.py errors, open those files and hotfix the respective lines. 
 
 *FOR LINUX (without GPU assist)*: <br />
-Simply do "pip install pymc3" and you're good to go!
+The 'seaborn' and 'OpenCV' python modules are needed. Apart from that, simply do "pip install pymc3" and you're good to go!
 
 
 NOTE: Be careful if you wish to time the code, as it may hang the MCMC subroutine due to unknown reasons!
