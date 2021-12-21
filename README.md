@@ -1,5 +1,5 @@
 # storage-ring-gravitational-wave-observatory
-Simulating the detection of millihertz (mHz) gravitational waves (GWs) from astrophysical sources by a Storage Ring Gravitational-wave Observatory (SRGO). Reference: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.102.122006
+Simulating the detection of millihertz (mHz) gravitational waves (GWs) from astrophysical sources by a Storage Ring Gravitational-wave Observatory (SRGO). Author: Suvrat Rao, Hamburg Observatory, University of Hamburg. Reference: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.102.122006
 
 STEP 1: Rename the "theanorc.txt" file to ".theanorc.txt" (notice the '.' at the start) and place this file in your "C:\Users\username" folder. Also, rename the paths inside this file to the corresponding paths of your computer. Some paths will only exist after you complete the installation procedure following the guide below. If you do not wish to set up GPU assist, then skip those steps from the guide and delete the appropriate lines from .theanorc.txt.
 
@@ -8,8 +8,7 @@ STEP 2: Create a new folder named "saved_plots" (results will automatically be s
 STEP 3: ORDERWISE, PROPER MODULE INSTALLATION, ERROR DEBUGGING & OPTIMIZATION INSTRUCTIONS <br />
 
 *FOR WINDOWS (with GPU assist)*: <br />
-(start with a clean installation, then just follow this list mechanically and you should be good...) <br />
-(also, skip making separate environments and just install everything in the anaconda base environment) <br />
+Start with a clean installation, then just follow this list mechanically and you should be good. Also, skip making separate environments and just install everything in the anaconda base environment. <br />
 https://gist.github.com/ElefHead/93becdc9e99f2a9e4d2525a59f64b574 <br />
 (^ skip any module installs mentioned in this & copy all the cuDNN folder contents to the CUDA folder) <br />
 https://stackoverflow.com/questions/57701571/what-is-the-right-way-to-update-anaconda-and-conda-base-environments <br />
