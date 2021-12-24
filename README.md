@@ -34,4 +34,6 @@ In case of any __init__.py errors, open those files and hotfix the respective li
 The 'seaborn' and 'OpenCV' python modules are needed. Apart from that, simply do "pip install pymc3" and you're good to go!
 
 
-NOTE: Be careful if you wish to time the code, as it may hang the MCMC subroutine due to unknown reasons!
+NOTE1: Be careful if you wish to time the code, as it may hang the MCMC subroutine due to unknown reasons!
+
+NOTE2: If your plots or saved figures look misaligned, ensure that you have changed the matplotlib backend to automatic (https://stackoverflow.com/questions/23585126/how-do-i-get-interactive-plots-again-in-spyder-ipython-matplotlib)
