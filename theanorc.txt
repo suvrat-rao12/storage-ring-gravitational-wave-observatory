@@ -1,0 +1,33 @@
+[global]
+floatX = float32
+cast_policy = numpy+floatX
+device = cuda
+force_device = True
+optimizer_including = cudnn : local_remove_all_assert
+\\cxx = C:\Users\ninja\anaconda3\pkgs\m2w64-gcc-5.3.0-6\Library\mingw-w64\bin\g++.exe
+optimizer_excluding = more_mem
+openmp = False
+
+[cuda]
+root = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4
+
+[dnn]
+enabled = auto
+library_path = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\lib\x64
+include_path = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include
+
+[blas]
+ldflags = -lmkl_rt.1 -lcublas64_70 
+
+[magma]
+enabled = True
+library_path = C:\Users\ninja\anaconda3\pkgs\magma-2.5.4-h154cb12_2\Library\lib
+include_path = C:\Users\ninja\anaconda3\pkgs\magma-2.5.4-h154cb12_2\Library\include
+
+[gpuarray]
+preallocate = 0.75
+sched = multi
+
+[scan]
+allow_gc = True
+allow_output_prealloc = True
