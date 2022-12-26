@@ -6,6 +6,6 @@ authors:
   orcid: "https://orcid.org/0000-0002-2395-358X"
 title: "Storage Ring Gravitational-wave Observatory (SRGO) simulation code"
 version: final
-doi: 10.5281/zenodo.7485006
+doi: 10.5281/zenodo.7485016
 date-released: 2022-12-27
 url: "https://github.com/suvrat-rao12/storage-ring-gravitational-wave-observatory/tree/SRGO_final"
